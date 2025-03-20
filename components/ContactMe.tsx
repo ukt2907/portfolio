@@ -1,10 +1,12 @@
 "use client"
+import { div } from "motion/react-client"
 import { BackgroundBeams } from "./ui/ackground-beams"
 import ShinyButton from "./ui/ShinyButton"
 
 const ContactMe = () => {
   return (
-    <div className="border relative mt-12 py-12 border-white/10 rounded-lg ">
+    <div className="sm:px-28">
+      <div className="border relative mt-12 py-12 border-white/10 rounded-lg ">
         <div className=" px-8 pb-28">
           <h1 className="text-5xl sm:max-w-3xl leading-none sm:leading-13 pb-9 font-bold  tracking-wide leading-tighter">Like what you see? Reach <br /> out <span className="text-primary  border-b-3 text-center border-primary">via email </span>
             to collaborate!</h1>
@@ -21,6 +23,7 @@ const ContactMe = () => {
           {/* <Footer /> */}
         </div>
           <BackgroundBeams className="hidden sm:flex"/>
+    </div>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import { techCardsItems } from '@/lib/constants'
 function TechSkills() {
   return (
    <>
-    <div className=' pb-6 md:max-w-full '>
+    <div className='lg:px-28 sm:pt-12 pb-6 md:max-w-full '>
         <motion.h1 
         initial={{ opacity: 0, x: -75 }}
         whileInView={{ opacity: 1, x: 0 }}

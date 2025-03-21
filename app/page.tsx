@@ -1,6 +1,8 @@
 import ContactMe from "@/components/ContactMe";
 import HeroSection from "@/components/HeroSection";
 import { Navbar } from "@/components/Navbar";
+import { ProjectOverview } from "@/components/ProjectOverview";
+
 import Projects from "@/components/Projects";
 import TechSkills from "@/components/TechSkills";
 import { BriefcaseBusiness, ContactIcon, House, UserRound } from "lucide-react";
@@ -21,7 +23,7 @@ export default function Home() {
         <TechSkills/>
         <Projects/>
         <ContactMe/>
-        
+        <ProjectOverview/>
       </div>
     </main>
   );

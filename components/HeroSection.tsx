@@ -16,7 +16,7 @@ const HeroSection = () => {
         className={cn(
           "absolute inset-0",
           "[background-size:30px_30px]",
-          "[background-image:linear-gradient(to_right,#111111_1px,transparent_1px),linear-gradient(to_bottom,#111111_1px,transparent_1px)]",
+          "[background-image:linear-gradient(to_right,#151515_1px,transparent_1px),linear-gradient(to_bottom,#151515_1px,transparent_1px)]",
 
         )}
       />
